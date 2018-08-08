@@ -1,0 +1,30 @@
+    ConnectionFactory/ClassName=javax.jms.ConnectionFactory
+    ConnectionFactory/FactoryName=com.rabbitmq.jms.admin.RMQObjectFactory
+    ConnectionFactory/RefAddr/0/Content=jms/ConnectionFactory
+    ConnectionFactory/RefAddr/0/Type=name
+    ConnectionFactory/RefAddr/0/Encoding=String
+    ConnectionFactory/RefAddr/1/Content=javax.jms.ConnectionFactory
+    ConnectionFactory/RefAddr/1/Type=type
+    ConnectionFactory/RefAddr/1/Encoding=String
+    ConnectionFactory/RefAddr/2/Content=com.rabbitmq.jms.admin.RMQObjectFactory
+    ConnectionFactory/RefAddr/2/Type=factory
+    ConnectionFactory/RefAddr/2/Encoding=String
+    # Change this line accordingly if the broker is not at localhost
+    ConnectionFactory/RefAddr/3/Content=localhost
+    ConnectionFactory/RefAddr/3/Type=host
+    ConnectionFactory/RefAddr/3/Encoding=String
+    # MyQueue Queue 
+    MyQueue/ClassName=javax.jms.Queue
+    MyQueue/FactoryName=com.rabbitmq.jms.admin.RMQObjectFactory
+    MyQueue/RefAddr/0/Content=jms/Queue
+    MyQueue/RefAddr/0/Type=name
+    MyQueue/RefAddr/0/Encoding=String
+    MyQueue/RefAddr/1/Content=javax.jms.Queue
+    MyQueue/RefAddr/1/Type=type
+    MyQueue/RefAddr/1/Encoding=String
+    MyQueue/RefAddr/2/Content=com.rabbitmq.jms.admin.RMQObjectFactory
+    MyQueue/RefAddr/2/Type=factory
+    MyQueue/RefAddr/2/Encoding=String
+    MyQueue/RefAddr/3/Content=MyQueue
+    MyQueue/RefAddr/3/Type=destinationName
+    MyQueue/RefAddr/3/Encoding=String

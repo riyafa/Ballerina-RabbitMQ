@@ -1,0 +1,30 @@
+    ConnectionFactory/ClassName=javax.jms.ConnectionFactory
+    ConnectionFactory/FactoryName=com.rabbitmq.jms.admin.RMQObjectFactory
+    ConnectionFactory/RefAddr/0/Content=jms/ConnectionFactory
+    ConnectionFactory/RefAddr/0/Type=name
+    ConnectionFactory/RefAddr/0/Encoding=String
+    ConnectionFactory/RefAddr/1/Content=javax.jms.ConnectionFactory
+    ConnectionFactory/RefAddr/1/Type=type
+    ConnectionFactory/RefAddr/1/Encoding=String
+    ConnectionFactory/RefAddr/2/Content=com.rabbitmq.jms.admin.RMQObjectFactory
+    ConnectionFactory/RefAddr/2/Type=factory
+    ConnectionFactory/RefAddr/2/Encoding=String
+    # Change this line accordingly if the broker is not at localhost
+    ConnectionFactory/RefAddr/3/Content=localhost
+    ConnectionFactory/RefAddr/3/Type=host
+    ConnectionFactory/RefAddr/3/Encoding=String
+    # BallerinaTopic Topic 
+    BallerinaTopic/ClassName=javax.jms.Topic
+    BallerinaTopic/FactoryName=com.rabbitmq.jms.admin.RMQObjectFactory
+    BallerinaTopic/RefAddr/0/Content=jms/Topic
+    BallerinaTopic/RefAddr/0/Type=name
+    BallerinaTopic/RefAddr/0/Encoding=String
+    BallerinaTopic/RefAddr/1/Content=javax.jms.Topic
+    BallerinaTopic/RefAddr/1/Type=type
+    BallerinaTopic/RefAddr/1/Encoding=String
+    BallerinaTopic/RefAddr/2/Content=com.rabbitmq.jms.admin.RMQObjectFactory
+    BallerinaTopic/RefAddr/2/Type=factory
+    BallerinaTopic/RefAddr/2/Encoding=String
+    BallerinaTopic/RefAddr/3/Content=BallerinaTopic
+    BallerinaTopic/RefAddr/3/Type=destinationName
+    BallerinaTopic/RefAddr/3/Encoding=String

@@ -1,0 +1,4 @@
+sudo rabbitmq-plugins enable rabbitmq_jms_topic_exchange
+
+sudo rabbitmqctl list_exchanges
+
